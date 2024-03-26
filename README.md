@@ -1,48 +1,49 @@
-angular :- 
-1. created the project
+Created the Angular project.
 
-2. create the component 
-    a. register component
+Created a component:
+a. RegisterComponent.
 
-3. created the service 
-    a. jwt
+Created a service:
+a. JwtService.
 
-4. added the routing 
-   a. register component in the app-routing.module.ts
+Added routing:
+a. Registered the RegisterComponent in the app-routing.module.ts.
 
-5. added the import
-   a. HTTPClient import in the app.module.ts;
+Added imports:
+a. Imported HttpClientModule in the app.module.ts.
 
-6. added a nav bar in the appcomponent.html
+Added a navigation bar in the app.component.html.
 
-7. Jwt service
-   a. injected the HtppClient object in the constructor
-   b. provided the backend BASE_URL;
-   c. created the register method
+JwtService:
+a. Injected the HttpClient object in the constructor.
+b. Provided the backend BASE_URL.
+c. Created the register method.
 
-8. made form for the register compnonent
-  a.  in the registerComponent.html
-  b. added css in the registerComponent.scss
+Created a form for the RegisterComponent:
+a. Implemented in the registerComponent.html.
+b. Added CSS in the registerComponent.scss.
 
-9. ab hume iss form ko bind karna hai , apne registerComponent.ts file se
-   or waha se get karke hume  jwtservice ko dena hai , or ye service form ke data ko backend mein bhej degi
+Now, we need to bind this form and pass it to the JwtService from the registerComponent.ts file.
 
-so to do this 
+To do this, we need to add imports in our appModule.ts:
+a. Imported ReactiveFormsModule.
 
-10. we need to add import in our appModule.ts
-    a. import ReactiveFormsModule
+Implemented several methods in the registerComponent.ts file.
 
-11. made the several method in the registerComponent.ts file
+Created the LoginComponent.
 
+Added import of LoginComponent in the app-routing.module.ts.
 
-12. create the login component
-13. add import of loginComponent  in the app routing module.ts
-14. create a login method in the jwtService.ts
-15. made a form for the login component and added css for that form
-16. ab iss form ki implementation denge login component.ts
+Created a login method in the JwtService.ts.
 
-Same for dashboard
-create dashboard component and rest of the steps are same
+Created a form for the LoginComponent and added CSS for that form.
+
+Implemented the form in the loginComponent.ts.
+
+Same process for the Dashboard:
+
+Created Dashboard component.
+Rest of the steps are the same.
 
 
 
